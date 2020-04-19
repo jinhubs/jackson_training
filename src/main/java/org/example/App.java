@@ -21,7 +21,7 @@ public class App {
         Place y = new Place(10,"stret","zip","city",00.55,55.55);
         System.out.println(x.getId() + "  " + x.getDesignation());
         System.out.println(y.getId() + "  " + y.getName()+" "+y.getCity()+" "+y.getLng());
-        System.out.println(z.getId() + "  " + z.getName()+" "+z.getCity()+" "+z.getLng());
+        System.out.println(z.getId() + "  " + z.getName()+" "+z.getAddress().getCity()+" "+z.getAddress().getLng());
 
     }
 }
